@@ -2,8 +2,6 @@
 
 > **"복잡한 객체를 단계별로 구성하자"**
 
-[← 이전: Factory Method](./02-FactoryMethod.md) | [목차로 돌아가기](../README.md)
-
 ---
 
 ## 📌 목차

@@ -2,8 +2,6 @@
 
 > **"객체 생성을 서브클래스에 위임하여 확장성을 높이자"**
 
-[← 이전: Singleton](./01-Singleton.md) | [목차로 돌아가기](../README.md) | [다음: Builder →](./03-Builder.md)
-
 ---
 
 ## 📌 목차

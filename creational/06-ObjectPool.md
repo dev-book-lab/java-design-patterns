@@ -2,8 +2,6 @@
 
 > **"생성 비용이 큰 객체를 재사용하자"**
 
-[← 이전: Abstract Factory](./05-AbstractFactory.md) | [목차로 돌아가기](../README.md)
-
 ---
 
 ## 📌 목차

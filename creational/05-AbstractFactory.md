@@ -2,8 +2,6 @@
 
 > **"관련된 객체들의 집합을 생성하자"**
 
-[← 이전: Prototype](./04-Prototype.md) | [목차로 돌아가기](../README.md) | [다음: Object Pool →](./06-ObjectPool.md)
-
 ---
 
 ## 📌 목차

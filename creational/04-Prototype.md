@@ -2,8 +2,6 @@
 
 > **"기존 객체를 복제하여 새로운 객체를 생성하자"**
 
-[← 이전: Builder](./03-Builder.md) | [목차로 돌아가기](../README.md) | [다음: Abstract Factory →](./05-AbstractFactory.md)
-
 ---
 
 ## 📌 목차

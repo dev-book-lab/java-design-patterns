@@ -47,14 +47,14 @@ GoF 패턴부터 Modern Java 패턴까지,
 ### 🔹 1. 생성 패턴 (Creational Patterns)
 객체 생성 메커니즘을 다루는 패턴
 
-| Pattern | 문제 상황 | 핵심 개념 |
-|:-------:|----------|-----------|
-| **[01. Singleton](./creational/Singleton.md)** | 전역 인스턴스가 필요할 때 | Thread-safe, Enum, Lazy Initialization |
-| **[02. Factory Method](./creational/FactoryMethod.md)** | 객체 생성 로직을 분리하고 싶을 때 | 인터페이스 기반, 확장성 |
-| **[03. Abstract Factory](./creational/AbstractFactory.md)** | 관련 객체군을 생성할 때 | 제품군, 플랫폼 독립 |
-| **[04. Builder](./creational/Builder.md)** | 복잡한 객체를 단계별로 생성할 때 | Fluent API, Immutable |
-| **[05. Prototype](./creational/Prototype.md)** | 객체를 복제해서 생성할 때 | Clone, Deep Copy |
-| **[06. Object Pool](./creational/ObjectPool.md)** | 비용이 큰 객체를 재사용할 때 | Connection Pool, Thread Pool |
+|                            Pattern                             | 문제 상황 | 핵심 개념 |
+|:--------------------------------------------------------------:|----------|-----------|
+|       **[01. Singleton](./creational/01-Singleton.md)**        | 전역 인스턴스가 필요할 때 | Thread-safe, Enum, Lazy Initialization |
+|   **[02. Factory Method](./creational/02-FactoryMethod.md)**   | 객체 생성 로직을 분리하고 싶을 때 | 인터페이스 기반, 확장성 |
+| **[03. Abstract Factory](./creational/03-AbstractFactory.md)** | 관련 객체군을 생성할 때 | 제품군, 플랫폼 독립 |
+|         **[04. Builder](./creational/04-Builder.md)**          | 복잡한 객체를 단계별로 생성할 때 | Fluent API, Immutable |
+|       **[05. Prototype](./creational/05-Prototype.md)**        | 객체를 복제해서 생성할 때 | Clone, Deep Copy |
+|      **[06. Object Pool](./creational/06-ObjectPool.md)**      | 비용이 큰 객체를 재사용할 때 | Connection Pool, Thread Pool |
 
 <br/>
 

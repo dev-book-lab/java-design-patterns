@@ -2,8 +2,6 @@
 
 > **"추상화와 구현을 분리하여 독립적으로 확장하자"**
 
-[← 이전: Facade](05-Facade.md) | [목차로 돌아가기](../README.md) | [다음: Flyweight →](07-Flyweight.md)
-
 ---
 
 ## 📌 목차

@@ -144,12 +144,12 @@ Checkbox checkbox = factory.createCheckbox(); // Windows로 통일!
                         △
            ┌────────────┴────────────┐
            │                         │
-    ┌──────────────┐         ┌──────────────┐
-    │ConcreteFactory1│       │ConcreteFactory2│ ← 구체 팩토리
-    ├──────────────┤         ├──────────────┤
-    │createProductA()│       │createProductA()│
-    │createProductB()│       │createProductB()│
-    └──────────────┘         └──────────────┘
+    ┌────────────────┐         ┌────────────────┐
+    │ConcreteFactory1│         │ConcreteFactory2│ ← 구체 팩토리
+    ├────────────────┤         ├────────────────┤
+    │createProductA()│         │createProductA()│
+    │createProductB()│         │createProductB()│
+    └────────────────┘         └────────────────┘
            │                         │
            │ creates                 │ creates
            ▼                         ▼

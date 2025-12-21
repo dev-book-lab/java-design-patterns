@@ -867,6 +867,6 @@ public class RemoteProxyExample {
 
 <div align="center">
 
-**[← 이전: Decorator](02-Decorator.md) | [다음: Facade →](04-Composite.md)**
+**[← 이전: Decorator](02-Decorator.md) | [다음: Composite →](04-Composite.md)**
 
 </div>

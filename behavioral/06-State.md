@@ -862,6 +862,6 @@ public class TCPStateExample {
 
 <div align="center">
 
-**[← 이전: Iterator](05-Iterator.md)** | **[다음: Chain of Responsibility →](07-ChainOfResponsibility.md)**
+**[← 이전: Iterator](05-Iterator.md) | [다음: Chain of Responsibility →](07-ChainOfResponsibility.md)**
 
 </div>

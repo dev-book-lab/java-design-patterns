@@ -767,6 +767,6 @@ public class CanvasMementoExample {
 
 <div align="center">
 
-**[← 이전: Mediator](08-Mediator.md)** | **[다음: Visitor →](10-Visitor.md)**
+**[← 이전: Mediator](08-Mediator.md) | [다음: Visitor →](10-Visitor.md)**
 
 </div>

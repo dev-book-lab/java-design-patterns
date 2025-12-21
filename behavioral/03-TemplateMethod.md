@@ -720,6 +720,6 @@ public final void templateMethod() { // final!
 
 <div align="center">
 
-**[← 이전: Observer](02-Observer.md)** | [다음: Command →](04-Command.md)**
+**[← 이전: Observer](02-Observer.md) | [다음: Command →](04-Command.md)**
 
 </div>

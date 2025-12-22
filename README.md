@@ -51,9 +51,9 @@ GoF 패턴부터 Modern Java 패턴까지,
 |:--------------------------------------------------------------:|----------|-----------|
 |       **[01. Singleton](./creational/01-Singleton.md)**        | 전역 인스턴스가 필요할 때 | Thread-safe, Enum, Lazy Initialization |
 |   **[02. Factory Method](./creational/02-FactoryMethod.md)**   | 객체 생성 로직을 분리하고 싶을 때 | 인터페이스 기반, 확장성 |
-| **[03. Abstract Factory](./creational/03-AbstractFactory.md)** | 관련 객체군을 생성할 때 | 제품군, 플랫폼 독립 |
-|         **[04. Builder](./creational/04-Builder.md)**          | 복잡한 객체를 단계별로 생성할 때 | Fluent API, Immutable |
-|       **[05. Prototype](./creational/05-Prototype.md)**        | 객체를 복제해서 생성할 때 | Clone, Deep Copy |
+|         **[03. Builder](./creational/03-Builder.md)**          | 복잡한 객체를 단계별로 생성할 때 | Fluent API, Immutable |
+|       **[04. Prototype](./creational/04-Prototype.md)**        | 객체를 복제해서 생성할 때 | Clone, Deep Copy |
+| **[05. Abstract Factory](./creational/05-AbstractFactory.md)** | 관련 객체군을 생성할 때 | 제품군, 플랫폼 독립 |
 |      **[06. Object Pool](./creational/06-ObjectPool.md)**      | 비용이 큰 객체를 재사용할 때 | Connection Pool, Thread Pool |
 
 <br/>
@@ -79,17 +79,17 @@ GoF 패턴부터 Modern Java 패턴까지,
 
 | Pattern | 문제 상황 | 핵심 개념 |
 |:-------:|----------|-----------|
-| **[14. Chain of Responsibility](./behavioral/ChainOfResponsibility.md)** | 요청을 순차적으로 처리할 때 | 책임 연쇄, 파이프라인 |
-| **[15. Command](./behavioral/Command.md)** | 요청을 객체로 캡슐화할 때 | Undo/Redo, 트랜잭션 |
-| **[16. Interpreter](./behavioral/Interpreter.md)** | 언어 문법을 해석할 때 | AST, 파서 |
-| **[17. Iterator](./behavioral/Iterator.md)** | 컬렉션을 순회할 때 | 내부 구조 감춤, 표준화 |
-| **[18. Mediator](./behavioral/Mediator.md)** | 객체 간 상호작용을 중재할 때 | 결합도 감소, 중앙 제어 |
-| **[19. Memento](./behavioral/Memento.md)** | 객체 상태를 저장/복원할 때 | 스냅샷, 이력 관리 |
-| **[20. Observer](./behavioral/Observer.md)** | 이벤트를 구독/발행할 때 | 일대다 의존, Pub/Sub |
-| **[21. State](./behavioral/State.md)** | 상태에 따라 행위가 변할 때 | 상태 기계, 조건문 제거 |
-| **[22. Strategy](./behavioral/Strategy.md)** | 알고리즘을 교체 가능하게 할 때 | 정책 분리, 런타임 교체 |
-| **[23. Template Method](./behavioral/TemplateMethod.md)** | 알고리즘 골격을 정의할 때 | Hook 메서드, 제어 역전 |
-| **[24. Visitor](./behavioral/Visitor.md)** | 구조와 연산을 분리할 때 | Double Dispatch, 확장성 |
+| **[14. Strategy](./behavioral/01-Strategy.md)** | 알고리즘을 교체 가능하게 할 때 | 정책 분리, 런타임 교체 |
+| **[15. Observer](./behavioral/02-Observer.md)** | 이벤트를 구독/발행할 때 | 일대다 의존, Pub/Sub |
+| **[16. Template Method](./behavioral/03-TemplateMethod.md)** | 알고리즘 골격을 정의할 때 | Hook 메서드, 제어 역전 |
+| **[17. Command](./behavioral/04-Command.md)** | 요청을 객체로 캡슐화할 때 | Undo/Redo, 트랜잭션 |
+| **[18. Iterator](./behavioral/05-Iterator.md)** | 컬렉션을 순회할 때 | 내부 구조 감춤, 표준화 |
+| **[19. State](./behavioral/06-State.md)** | 상태에 따라 행위가 변할 때 | 상태 기계, 조건문 제거 |
+| **[20. Chain of Responsibility](./behavioral/07-ChainOfResponsibility.md)** | 요청을 순차적으로 처리할 때 | 책임 연쇄, 파이프라인 |
+| **[21. Mediator](./behavioral/08-Mediator.md)** | 객체 간 상호작용을 중재할 때 | 결합도 감소, 중앙 제어 |
+| **[22. Memento](./behavioral/09-Memento.md)** | 객체 상태를 저장/복원할 때 | 스냅샷, 이력 관리 |
+| **[23. Visitor](./behavioral/10-Visitor.md)** | 구조와 연산을 분리할 때 | Double Dispatch, 확장성 |
+| **[24. Interpreter](./behavioral/11-Interpreter.md)** | 언어 문법을 해석할 때 | AST, 파서 |
 
 <br/>
 
@@ -98,53 +98,53 @@ GoF 패턴부터 Modern Java 패턴까지,
 
 | Pattern | 문제 상황 | 핵심 개념 |
 |:-------:|----------|-----------|
-| **[25. MVC](./architectural/MVC.md)** | UI 로직을 분리할 때 | Model-View-Controller |
-| **[26. MVP](./architectural/MVP.md)** | View를 수동적으로 만들 때 | Presenter, Testability |
-| **[27. MVVM](./architectural/MVVM.md)** | 데이터 바인딩이 필요할 때 | ViewModel, Reactive |
-| **[28. Layered Architecture](./architectural/Layered.md)** | 계층을 분리할 때 | Presentation-Business-Data |
-| **[29. Hexagonal](./architectural/Hexagonal.md)** | 도메인을 격리할 때 | Ports & Adapters, DDD |
-| **[30. Event-Driven](./architectural/EventDriven.md)** | 비동기 통신이 필요할 때 | Message Queue, 느슨한 결합 |
-| **[31. Microservices](./architectural/Microservices.md)** | 독립 배포가 필요할 때 | Service Mesh, API Gateway |
-| **[32. Repository](./architectural/Repository.md)** | 데이터 접근을 추상화할 때 | Domain Model 보호 |
+| **[25. Layered Architecture](./architectural/01-LayeredArchitecture.md)** | 계층을 분리할 때 | Presentation-Business-Data |
+| **[26. MVC](./architectural/02-MVC.md)** | UI 로직을 분리할 때 | Model-View-Controller |
+| **[27. Repository](./architectural/03-Repository.md)** | 데이터 접근을 추상화할 때 | Domain Model 보호 |
+| **[28. Hexagonal](./architectural/04-Hexagonal.md)** | 도메인을 격리할 때 | Ports & Adapters, DDD |
+| **[29. MVVM](./architectural/05-MVVM.md)** | 데이터 바인딩이 필요할 때 | ViewModel, Reactive |
+| **[30. Event-Driven](./architectural/06-EventDriven.md)** | 비동기 통신이 필요할 때 | Message Queue, 느슨한 결합 |
+| **[31. Microservices](./architectural/07-Microservices.md)** | 독립 배포가 필요할 때 | Service Mesh, API Gateway |
+| **[32. MVP](./architectural/08-MVP.md)** | View를 수동적으로 만들 때 | Presenter, Testability |
 
 <br/>
 
-### 🔹 5. 동시성 패턴 (Concurrency Patterns)
-멀티스레딩 환경의 패턴
-
-| Pattern | 문제 상황 | 핵심 개념 |
-|:-------:|----------|-----------|
-| **[33. Thread Pool](./concurrency/ThreadPool.md)** | 스레드를 효율적으로 관리할 때 | ExecutorService, 재사용 |
-| **[34. Producer-Consumer](./concurrency/ProducerConsumer.md)** | 생산/소비를 분리할 때 | BlockingQueue, 버퍼 |
-| **[35. Reader-Writer Lock](./concurrency/ReaderWriterLock.md)** | 읽기/쓰기를 분리할 때 | 동시 읽기, 배타적 쓰기 |
-| **[36. Double-Checked Locking](./concurrency/DoubleCheckedLocking.md)** | Singleton을 최적화할 때 | volatile, 성능 |
-| **[37. Active Object](./concurrency/ActiveObject.md)** | 비동기 메서드를 호출할 때 | Actor Model, 메시지 |
-| **[38. Future/Promise](./concurrency/FuturePromise.md)** | 비동기 결과를 처리할 때 | CompletableFuture, 콜백 |
-
-<br/>
-
-### 🔹 6. 엔터프라이즈 패턴 (Enterprise Patterns)
+### 🔹 5. 엔터프라이즈 패턴 (Enterprise Patterns)
 비즈니스 로직 구현 패턴
 
 | Pattern | 문제 상황 | 핵심 개념 |
 |:-------:|----------|-----------|
-| **[39. DTO](./enterprise/DTO.md)** | 계층 간 데이터를 전송할 때 | 직렬화, API 응답 |
-| **[40. DAO](./enterprise/DAO.md)** | DB 접근을 캡슐화할 때 | CRUD, SQL 격리 |
-| **[41. Service Layer](./enterprise/ServiceLayer.md)** | 비즈니스 로직을 분리할 때 | Transaction, Orchestration |
-| **[42. Unit of Work](./enterprise/UnitOfWork.md)** | 트랜잭션을 관리할 때 | 변경 추적, 일괄 처리 |
-| **[43. Specification](./enterprise/Specification.md)** | 비즈니스 규칙을 캡슐화할 때 | 조합 가능, 재사용 |
+| **[33. DTO](./enterprise/01-DTO.md)** | 계층 간 데이터를 전송할 때 | 직렬화, API 응답 |
+| **[34. DAO](./enterprise/02-DAO.md)** | DB 접근을 캡슐화할 때 | CRUD, SQL 격리 |
+| **[35. Service Layer](./enterprise/03-ServiceLayer.md)** | 비즈니스 로직을 분리할 때 | Transaction, Orchestration |
+| **[36. Unit of Work](./enterprise/04-UnitOfWork.md)** | 트랜잭션을 관리할 때 | 변경 추적, 일괄 처리 |
+| **[37. Specification](./enterprise/05-Specification.md)** | 비즈니스 규칙을 캡슐화할 때 | 조합 가능, 재사용 |
 
 <br/>
 
-### 🔹 7. Modern Java 패턴 (Modern Java Patterns)
+### 🔹 6. Modern Java 패턴 (Modern Java Patterns)
 Java 8+ 기능 활용 패턴
 
 | Pattern | 문제 상황 | 핵심 개념 |
 |:-------:|----------|-----------|
-| **[44. Functional Interface](./modern/FunctionalInterface.md)** | 함수를 일급 객체로 다룰 때 | Lambda, Method Reference |
-| **[45. Stream Pipeline](./modern/StreamPipeline.md)** | 데이터를 선언적으로 처리할 때 | filter-map-collect, 지연 평가 |
-| **[46. Optional Chaining](./modern/OptionalChaining.md)** | Null을 안전하게 처리할 때 | ofNullable, orElse |
-| **[47. Sealed Classes](./modern/SealedClasses.md)** | 타입을 제한할 때 | Pattern Matching, 타입 안전 |
+| **[38. Functional Interface](./modern/01-FunctionalInterface.md)** | 함수를 일급 객체로 다룰 때 | Lambda, Method Reference |
+| **[39. Stream Pipeline](./modern/02-StreamPipeline.md)** | 데이터를 선언적으로 처리할 때 | filter-map-collect, 지연 평가 |
+| **[40. Optional Chaining](./modern/03-OptionalChaining.md)** | Null을 안전하게 처리할 때 | ofNullable, orElse |
+| **[41. Sealed Classes](./modern/04-SealedClasses.md)** | 타입을 제한할 때 | Pattern Matching, 타입 안전 |
+
+<br/>
+
+### 🔹 7. 동시성 패턴 (Concurrency Patterns)
+멀티스레딩 환경의 패턴
+
+| Pattern | 문제 상황 | 핵심 개념 |
+|:-------:|----------|-----------|
+| **[42. Thread Pool](./concurrency/01-ThreadPool.md)** | 스레드를 효율적으로 관리할 때 | ExecutorService, 재사용 |
+| **[43. Producer-Consumer](./concurrency/02-ProducerConsumer.md)** | 생산/소비를 분리할 때 | BlockingQueue, 버퍼 |
+| **[44. Reader-Writer Lock](./concurrency/03-ReaderWriterLock.md)** | 읽기/쓰기를 분리할 때 | 동시 읽기, 배타적 쓰기 |
+| **[45. Double-Checked Locking](./concurrency/04-DoubleCheckedLocking.md)** | Singleton을 최적화할 때 | volatile, 성능 |
+| **[46. Active Object](./concurrency/05-ActiveObject.md)** | 비동기 메서드를 호출할 때 | Actor Model, 메시지 |
+| **[47. Future/Promise](./concurrency/06-FuturePromise.md)** | 비동기 결과를 처리할 때 | CompletableFuture, 콜백 |
 
 <br/>
 

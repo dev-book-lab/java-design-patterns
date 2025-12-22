@@ -1071,6 +1071,12 @@ public interface UserRepository extends JpaRepository<User, Long> {
 
 <div align="center">
 
+**[⬆ 목차로 돌아가기](../README.md)**
+
+</div>
+
+<div align="center">
+
 **[← 이전: DTO](./01-DTO.md) | [다음: Service Layer →](./03-ServiceLayer.md)**
 
 </div>

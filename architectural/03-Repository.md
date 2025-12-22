@@ -1789,6 +1789,6 @@ List<User> users = userRepository.findAll(spec);
 
 <div align="center">
 
-**[← 이전: MVC](./02-MVC.md) | [-> 다음: Hexagonal](./04-Hexagonal.md)****
+**[← 이전: MVC](./02-MVC.md) | [-> 다음: Hexagonal](./04-Hexagonal.md)**
 
 </div>
